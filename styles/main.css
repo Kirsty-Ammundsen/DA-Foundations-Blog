@@ -49,7 +49,7 @@ h1 {
 .welcome {
   font-size: 2.2rem;
   padding-top: 6vh;
-  padding-bottom: 10vh;
+  padding-bottom: 15vh;
 }
 
 /* Responsiveness for Title and Welcome */
@@ -95,12 +95,16 @@ h1 {
 
 /* Blog Content */
 
+.blog {
+  margin-top: 15vh;
+}
+
 .blog-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
-  margin: 5%;
+  margin: 10%;
   justify-items: center;
   align-items: center;
 }
