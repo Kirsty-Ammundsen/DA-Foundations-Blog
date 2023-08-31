@@ -23,17 +23,31 @@ h1,
 h2 {
   font-family: 'Prata', serif;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .title-box {
   background-color: #f9f2f0;
-  height: 50vh;
+  height: 40vh;
   border-color: #663635;
   border-width: 20pt;
   border-style: solid;
   text-align: center;
-  padding-top: 30vh;
+  padding-top: 25vh;
+  overflow: hidden;
+}
+
+@media (max-width: 750px) {
+  h1,
+  h2 {
+    font-size: 3rem;
+  }
+
+  .title-box {
+    height: 40vh;
+    border-width: 20pt;
+    padding-top: 16vh;
+  }
 }
 
 /* About Me */
