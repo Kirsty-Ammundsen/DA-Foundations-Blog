@@ -1,4 +1,54 @@
+/* Colour Scheme
+Ivory - #F9F2F0
+Marsala - #663635
+Rosewater - #E1999F
+Dusty Rose - #DEB3AB
+Moss - #588068
+Deep Green - #1F3B2C
+*/
+
 body {
-  background-color: palevioletred;
-  text-align: center;
+  background-color: #e1999f;
+
+  color: #663635;
 }
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Title Page */
+
+h1,
+h2 {
+  font-family: 'Prata', serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.title-box {
+  background-color: #f9f2f0;
+  height: 50vh;
+  border-color: #663635;
+  border-width: 20pt;
+  border-style: solid;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+/* About Me */
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.kirsty-photo {
+  width: 30vh;
+  border-radius: 50%;
+  border: #663635;
+  border-style: solid;
+  border-width: 15px;
+}
+
+/* Blog Content */
