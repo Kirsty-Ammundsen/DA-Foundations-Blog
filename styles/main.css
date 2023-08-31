@@ -7,9 +7,10 @@ Moss - #588068
 Deep Green - #1F3B2C
 */
 
+/* Full website CSS */
+
 body {
   background-color: #e1999f;
-
   color: #663635;
 }
 
@@ -17,12 +18,15 @@ p {
   font-family: 'Oswald', sans-serif;
 }
 
-/* Title Page */
-
 h1,
 h2 {
   font-family: 'Prata', serif;
   text-align: center;
+}
+
+/* Title Page */
+
+h1 {
   font-size: 4rem;
 }
 
@@ -37,9 +41,15 @@ h2 {
   overflow: hidden;
 }
 
+/* Welcome Sign */
+.welcome {
+  font-size: 2.2rem;
+  padding-top: 6vh;
+  padding-bottom: 20vh;
+}
+
 @media (max-width: 750px) {
-  h1,
-  h2 {
+  h1 {
     font-size: 3rem;
   }
 
@@ -47,6 +57,14 @@ h2 {
     height: 40vh;
     border-width: 20pt;
     padding-top: 16vh;
+  }
+
+  .welcome {
+    font-size: 1.8rem;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 }
 
