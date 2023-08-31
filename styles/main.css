@@ -94,3 +94,32 @@ h1 {
 }
 
 /* Blog Content */
+
+.blog-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 5%;
+  justify-items: center;
+  align-items: center;
+}
+
+.blog-container > div {
+  height: 100px;
+  width: 100px;
+  background-color: #f9f2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-container a {
+  text-decoration: none;
+  color: #663635;
+  font-family: 'Prata', serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Footer */
