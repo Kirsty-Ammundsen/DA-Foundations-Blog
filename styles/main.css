@@ -39,6 +39,7 @@ h1 {
   border-color: #663635;
   border-width: 20pt;
   border-style: solid;
+  border-radius: 1%;
   text-align: center;
   padding-top: 20vh;
   overflow: hidden;
@@ -113,6 +114,7 @@ h1 {
   height: 100px;
   width: 100px;
   background-color: #f9f2f0;
+  border-radius: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
