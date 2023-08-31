@@ -16,6 +16,9 @@ body {
 
 p {
   font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 h1,
@@ -37,16 +40,19 @@ h1 {
   border-width: 20pt;
   border-style: solid;
   text-align: center;
-  padding-top: 25vh;
+  padding-top: 20vh;
   overflow: hidden;
 }
 
 /* Welcome Sign */
+
 .welcome {
   font-size: 2.2rem;
   padding-top: 6vh;
   padding-bottom: 20vh;
 }
+
+/* Responsiveness for Title and Welcome */
 
 @media (max-width: 750px) {
   h1 {
