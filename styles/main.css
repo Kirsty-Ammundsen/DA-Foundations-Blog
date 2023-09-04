@@ -14,6 +14,10 @@ body {
   color: #663635;
 }
 
+.blog-background {
+  background-color: #f9f2f0;
+}
+
 .date {
   font-size: 15px;
 }
@@ -38,7 +42,7 @@ h3 {
 }
 
 .border {
-  background-color: #f9f2f0;
+  background-color: #e1999f;
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
@@ -198,12 +202,13 @@ footer {
   margin-right: auto;
   margin-top: 10vh;
   margin-bottom: 10vh;
+  border-radius: 3%;
 }
 
 .css-example {
   border: 10px solid #663635;
-  border-radius: 8%;
-  background-color: #deb3ab;
+  border-radius: 5%;
+  background-color: #e1999f;
   margin-left: 5%;
   margin-right: 5%;
 }
