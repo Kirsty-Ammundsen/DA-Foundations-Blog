@@ -44,6 +44,7 @@ h3 {
   margin-right: auto;
   padding: 1px;
   border: 5px solid #663635;
+  border-radius: 2%;
 }
 
 /* Title Page */
@@ -197,4 +198,12 @@ footer {
   margin-right: auto;
   margin-top: 10vh;
   margin-bottom: 10vh;
+}
+
+.css-example {
+  border: 10px solid #663635;
+  border-radius: 8%;
+  background-color: #deb3ab;
+  margin-left: 5%;
+  margin-right: 5%;
 }
