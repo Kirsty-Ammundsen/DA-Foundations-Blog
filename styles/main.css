@@ -7,7 +7,7 @@ Moss - #588068
 Deep Green - #1F3B2C
 */
 
-/* Full website CSS */
+/* Global CSS */
 
 body {
   background-color: #e1999f;
@@ -25,6 +25,15 @@ h1,
 h2 {
   font-family: 'Prata', serif;
   text-align: center;
+}
+
+.border {
+  background-color: #f9f2f0;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  border: 5px solid #663635;
 }
 
 /* Title Page */
