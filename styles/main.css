@@ -14,7 +14,12 @@ body {
   color: #663635;
 }
 
-p {
+.date {
+  font-size: 15px;
+}
+
+p,
+h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
   padding-left: 5%;
@@ -25,6 +30,11 @@ h1,
 h2 {
   font-family: 'Prata', serif;
   text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 0%;
 }
 
 .border {
@@ -147,4 +157,33 @@ footer {
   text-align: center;
   border-top: 5px dashed #663635;
   padding: 30px;
+}
+
+/* Technical Blog CSS */
+
+.block {
+  display: block;
+  margin: 10%;
+  padding: 2%;
+  color: #1f3b2c;
+  outline: 2px solid #1f3b2c;
+  background-color: #f9f2f0;
+}
+
+.inline {
+  display: inline;
+  margin: 10%;
+  padding: 2%;
+  color: #1f3b2c;
+  outline: 2px solid #1f3b2c;
+  background-color: #f9f2f0;
+}
+
+.inline-block {
+  display: inline-block;
+  margin: 10%;
+  padding: 2%;
+  color: #1f3b2c;
+  outline: 2px solid #1f3b2c;
+  background-color: #f9f2f0;
 }
