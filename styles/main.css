@@ -165,6 +165,7 @@ footer {
   display: block;
   margin: 10%;
   padding: 2%;
+
   color: #1f3b2c;
   outline: 2px solid #1f3b2c;
   background-color: #f9f2f0;
@@ -174,6 +175,7 @@ footer {
   display: inline;
   margin: 10%;
   padding: 2%;
+
   color: #1f3b2c;
   outline: 2px solid #1f3b2c;
   background-color: #f9f2f0;
@@ -183,7 +185,16 @@ footer {
   display: inline-block;
   margin: 10%;
   padding: 2%;
+
   color: #1f3b2c;
   outline: 2px solid #1f3b2c;
   background-color: #f9f2f0;
+}
+
+.blog-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
