@@ -166,6 +166,10 @@ h1 {
 
 /* About Me */
 
+#about {
+  padding: 15vh;
+}
+
 .flexbox {
   display: flex;
   flex-direction: column;
