@@ -18,12 +18,14 @@
     </div>
     <h2>What does it mean to display inline vs inline blocks?</h2>
     <p class="date"><strong>5 September 2023</strong></p>
+    <br />
 
     <p>
       Using CSS, there are countless ways to display HTML information. One of
       these ways is by using the display property to show an element as a
       'block', 'inline', or combining properties of both into 'inline-block'.
     </p>
+    <br />
 
     <h3>Block</h3>
     <p>
@@ -46,20 +48,22 @@
       </p>
     </div>
     <p>
-      As you can see, the "block" property allows you to modify the margins and
-      padding, but by default will try to take up the whole width of the screen.
-      Even if you changed the width to less than 50% of the screen, it would
-      change the size of the box but the two boxes will not line up one next to
-      the other.
+      As you can see, the "block" property allows you to modify the height,
+      width, margins and padding, but by default will try to take up the whole
+      width of the screen. Even if you change the width to less than 50% of the
+      screen (as I have done), it would change the size of the box but the two
+      boxes will not line up one next to the other.
     </p>
+    <br />
 
     <h3>Inline</h3>
     <p>
       - does not allow the user to modify the height and width of an element,
       however, it will allow all elements to stay on the same line.
     </p>
+
     <p>
-      This what I have written in CSS to make the text look as it does below:
+      This what I have written in CSS to make the text appear as it does below:
     </p>
     <img
       class="blog-img"
@@ -74,6 +78,15 @@
       </p>
     </div>
 
+    <p>
+      In the example above, the height and width applied to the element are
+      ignored, but the text stays "in line" with each other. If you widen and
+      narrow the screen, the words want to be sitting next to each other unlike
+      the example above. It also displays padding all around, but ignores margin
+      on the top and bottom only (making this example look rather messy).
+    </p>
+    <br />
+
     <h3>Inline block</h3>
     <p>
       - allows the user to modify the height and width of an element, however,
@@ -81,7 +94,7 @@
       elements of both the named properties.
     </p>
     <p>
-      This what I have written in CSS to make the text look as it does below:
+      This what I have written in CSS to make the text appear as it does below:
     </p>
     <img
       class="blog-img"
@@ -96,5 +109,15 @@
         the kai (food). He was immediately recognised."
       </p>
     </div>
+    <p>
+      This last example shows properties of both inline and block (as the name
+      suggests). It allows you to change all properties: height, width, margins,
+      and padding. But it also tries to be "in line" as much as possible with
+      one element coming directly after the other. Again, widen or narrow the
+      screen to see how the boxes move relative to each other.
+    </p>
+    <br />
+
+    <footer>© Kirsty Ammundsen 2023</footer>
   </body>
 </html>
