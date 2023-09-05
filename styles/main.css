@@ -41,6 +41,12 @@ h3 {
   margin-bottom: 0%;
 }
 
+li {
+  font-family: 'Prata', serif;
+  font-size: 20px;
+  padding-top: 5%;
+}
+
 .border {
   background-color: #e1999f;
   width: 90vw;
