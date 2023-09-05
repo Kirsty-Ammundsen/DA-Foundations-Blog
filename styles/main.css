@@ -7,6 +7,11 @@ Moss - #588068
 Deep Green - #1F3B2C
 */
 
+/* Font Family 
+Title - font-family: 'Prata', serif;
+Paragraphs - font-family: 'Oswald', sans-serif;
+*/
+
 /* Global CSS */
 
 body {
@@ -55,6 +60,44 @@ li {
   padding: 1px;
   border: 5px solid #663635;
   border-radius: 2%;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  border-radius: 5px;
+  top: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 15%;
+  padding-right: 20%;
+  padding-top: 10px;
+  background-color: #1f3b2c;
+  height: 60px;
+  border-bottom-left-radius: 10px;
+  margin: 0;
+}
+
+li > a {
+  font-family: 'Prata', serif;
+  text-decoration: none;
+  color: #f9f2f0;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
 }
 
 /* Title Page */
