@@ -80,9 +80,9 @@ li {
   flex-direction: row;
   list-style-type: none;
   gap: 15%;
-  padding-right: 20%;
+  padding-right: 180px;
   padding-top: 10px;
-  background-color: #1f3b2c;
+  background-color: #663635;
   height: 60px;
   border-bottom-left-radius: 10px;
   margin: 0;
@@ -94,6 +94,8 @@ li > a {
   color: #f9f2f0;
 }
 
+/* Remove navbar when small screen */
+
 @media (max-width: 600px) {
   .navbar {
     display: none;
@@ -103,20 +105,33 @@ li > a {
 /* Title Page */
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title-box {
   background-color: #f9f2f0;
-  height: 40vh;
+  height: 30vh;
+  width: 70vw;
   border-color: #663635;
   border-width: 20pt;
   border-style: solid;
   border-radius: 1%;
+  margin-top: 20vh;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 3vh;
   overflow: hidden;
   box-shadow: 10px 10px 80px;
+}
+
+/* Remove title margin with small screen */
+
+@media (max-width: 600px) {
+  .title-box {
+    padding-top: 1vh;
+    margin-top: 5vh;
+  }
 }
 
 /* Welcome Sign */
