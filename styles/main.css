@@ -135,8 +135,8 @@ h1 {
 }
 
 .blog-container > div {
-  height: 100px;
-  width: 100px;
+  width: 15vh;
+  height: 15vh;
   background-color: #f9f2f0;
   border-radius: 20%;
   display: flex;
@@ -144,8 +144,13 @@ h1 {
   align-items: center;
 }
 
-.blog-container a:hover {
+.blog-container > div:hover {
   color: #e1999f;
+  background-color: #663635;
+}
+
+.blog-container a:hover {
+  color: #f9f2f0;
 }
 
 .blog-container a {
@@ -154,6 +159,9 @@ h1 {
   font-family: 'Prata', serif;
   font-weight: bolder;
   text-align: center;
+  width: 100px;
+  padding: 30px 20px;
+  border-radius: 20%;
 }
 
 /* Footer */
