@@ -17,6 +17,12 @@ Paragraphs - font-family: 'Oswald', sans-serif;
 body {
   background-color: #e1999f;
   color: #663635;
+  background: rgb(225, 153, 159);
+  background: radial-gradient(
+    circle,
+    rgba(225, 153, 159, 1) 0%,
+    rgba(200, 107, 115, 1) 100%
+  );
 }
 
 .blog-background {
@@ -31,6 +37,7 @@ p,
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
+  font-weight: bold;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -39,6 +46,7 @@ h1,
 h2 {
   font-family: 'Prata', serif;
   text-align: center;
+  font-size: 30px;
 }
 
 h3 {
