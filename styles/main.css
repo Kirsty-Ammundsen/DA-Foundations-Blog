@@ -135,6 +135,12 @@ h1 {
   align-items: center;
 }
 
+@media (max-width: 750px) {
+  .blog-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .blog-container > div {
   width: 15vh;
   height: 15vh;
