@@ -17,12 +17,6 @@ Paragraphs - font-family: 'Oswald', sans-serif;
 body {
   background-color: #e1999f;
   color: #663635;
-  background: rgb(225, 153, 159);
-  background: radial-gradient(
-    circle,
-    rgba(225, 153, 159, 1) 0%,
-    rgba(200, 107, 115, 1) 100%
-  );
 }
 
 .blog-background {
@@ -111,6 +105,15 @@ li > a {
 }
 
 /* Title Page */
+
+#home-body {
+  background: rgb(225, 153, 159);
+  background: radial-gradient(
+    circle,
+    rgba(225, 153, 159, 1) 0%,
+    rgba(200, 107, 115, 1) 100%
+  );
+}
 
 h1 {
   font-size: 3rem;
