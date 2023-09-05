@@ -135,15 +135,9 @@ h1 {
   align-items: center;
 }
 
-@media (max-width: 750px) {
-  .blog-container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 .blog-container > div {
-  width: 15vh;
-  height: 15vh;
+  width: 100px;
+  height: 100px;
   background-color: #f9f2f0;
   border-radius: 20%;
   display: flex;
@@ -166,9 +160,18 @@ h1 {
   font-family: 'Prata', serif;
   font-weight: bolder;
   text-align: center;
+  font-size: 15px;
   width: 100px;
   padding: 30px 20px;
   border-radius: 20%;
+}
+
+/* Responsiveness of Blog Grid */
+
+@media (max-width: 600px) {
+  .blog-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* Footer */
