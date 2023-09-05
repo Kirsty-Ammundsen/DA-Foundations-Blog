@@ -59,7 +59,7 @@ h1 {
 
 .title-box {
   background-color: #f9f2f0;
-  height: 50vh;
+  height: 40vh;
   border-color: #663635;
   border-width: 20pt;
   border-style: solid;
@@ -67,6 +67,7 @@ h1 {
   text-align: center;
   padding-top: 20vh;
   overflow: hidden;
+  box-shadow: 10px 10px 80px;
 }
 
 /* Welcome Sign */
