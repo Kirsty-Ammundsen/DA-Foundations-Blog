@@ -25,15 +25,21 @@ body {
 
 .date {
   font-size: 15px;
+  padding-top: 10%;
 }
 
 p,
-h3 {
+h3,
+th {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
   font-weight: bold;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+h3 {
+  padding-top: 5%;
 }
 
 h1,
@@ -56,12 +62,31 @@ li {
 
 .border {
   background-color: #e1999f;
-  width: 90vw;
+  width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  padding: 1px;
+  margin-top: 20vh;
+  padding: 2px;
   border: 5px solid #663635;
-  border-radius: 2%;
+  border-radius: 5px;
+}
+
+table {
+  border: 2px solid #663635;
+  padding: 3px;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+th {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.table-title {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 /* Navbar */
