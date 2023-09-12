@@ -71,8 +71,12 @@ li {
   border-radius: 5px;
 }
 
+/* Table CSS */
+
 table {
-  border: 2px solid #663635;
+  border: 5px solid #663635;
+  border-radius: 5px;
+  background-color: #e1999f;
   padding: 3px;
   margin-right: 8%;
   margin-left: 8%;
@@ -80,13 +84,12 @@ table {
 
 th {
   font-size: 1.2rem;
-  font-weight: 400;
   padding: 20px;
 }
 
 .table-title {
-  font-weight: bold;
-  font-size: 1.3rem;
+  font-family: 'Prata', serif;
+  font-size: 1.4rem;
 }
 
 /* Navbar */
@@ -344,4 +347,21 @@ footer {
   background-color: #e1999f;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+/* Learn More Link */
+
+.learn-link {
+  text-decoration: none;
+  color: #663635;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-left: 8%;
+  display: block;
+}
+
+.learn-link:hover {
+  color: #e1999f;
 }
