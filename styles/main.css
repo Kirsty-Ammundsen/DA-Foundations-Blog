@@ -391,6 +391,19 @@ th ul li {
 }
 
 /* This will require a media query for the phone */
+@media (max-width: 500px) {
+  .te-whare th {
+    font-size: 15px;
+  }
+
+  th ul li {
+    font-size: 12px;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: none;
+    margin: none;
+  }
+}
 
 /* Learn More Link */
 
