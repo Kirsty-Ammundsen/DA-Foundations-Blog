@@ -185,7 +185,7 @@ li > a {
 
 @media (max-width: 750px) {
   .homepage-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h1 {
@@ -201,6 +201,33 @@ li > a {
 
   .welcome {
     font-size: 1.8rem;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+@media (max-width: 400px) {
+  /* home button */
+
+  .homepage-title {
+    font-size: 2.2rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    overflow: hidden;
+  }
+
+  .title-box {
+    height: 30vh;
+    border-width: 15pt;
+    padding-top: 10vh;
+  }
+
+  .welcome {
+    font-size: 1.6rem;
     padding-top: 5vh;
     padding-bottom: 20vh;
     padding-left: 10vw;
