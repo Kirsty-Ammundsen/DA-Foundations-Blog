@@ -379,6 +379,17 @@ footer {
   margin-right: 5%;
 }
 
+/* Te Whare Tapa Wha Blog List */
+
+th ul li {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.te-whare {
+  font-size 400px
+}
+
 /* Learn More Link */
 
 .learn-link {
