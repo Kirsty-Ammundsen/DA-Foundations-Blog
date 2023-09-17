@@ -386,9 +386,11 @@ th ul li {
   font-family: 'Oswald', sans-serif;
 }
 
-.te-whare {
-  font-size 400px
+.te-whare th {
+  font-size: 25px;
 }
+
+/* This will require a media query for the phone */
 
 /* Learn More Link */
 
