@@ -40,6 +40,8 @@ th {
 
 h3 {
   padding-top: 5%;
+  font-size: 30px;
+  margin-bottom: 0%;
 }
 
 h1,
@@ -47,11 +49,11 @@ h2 {
   font-family: 'Prata', serif;
   text-align: center;
   font-size: 30px;
+  margin: 5% 8%;
 }
 
-h3 {
-  font-size: 30px;
-  margin-bottom: 0%;
+h1 {
+  font-size: 3rem;
 }
 
 li {
@@ -143,10 +145,6 @@ li > a {
   );
 }
 
-h1 {
-  font-size: 3rem;
-}
-
 .title-box {
   background-color: #f9f2f0;
   height: 30vh;
@@ -186,8 +184,13 @@ h1 {
 /* Responsiveness for Title and Welcome */
 
 @media (max-width: 750px) {
-  h1 {
+  .homepage-title {
     font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    overflow: hidden;
   }
 
   .title-box {
