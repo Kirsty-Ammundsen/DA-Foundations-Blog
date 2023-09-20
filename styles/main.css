@@ -31,16 +31,15 @@ body {
 p,
 h3,
 th {
-  font-family: 'Oswald', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
   padding-left: 8%;
   padding-right: 8%;
 }
 
 h3 {
   padding-top: 5%;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 0%;
 }
 
