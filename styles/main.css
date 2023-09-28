@@ -9,7 +9,7 @@ Deep Green - #1F3B2C
 
 /* Font Family 
 Title - font-family: 'Prata', serif;
-Paragraphs - font-family: 'Oswald', sans-serif;
+Paragraphs - font-family: 'Roboto', sans-serif;
 */
 
 /* Global CSS */
@@ -46,6 +46,7 @@ h3 {
 h1,
 h2 {
   font-family: 'Prata', serif;
+  font-weight: 800;
   text-align: center;
   font-size: 30px;
   margin: 5% 8%;
@@ -56,9 +57,13 @@ h1 {
 }
 
 li {
-  font-family: 'Prata', serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 20px;
   padding-top: 5%;
+  margin-left: 5%;
+  padding-left: 3%;
+  padding-right: 8%;
 }
 
 .border {
